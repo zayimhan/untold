@@ -1,0 +1,9 @@
+<div class="lyric-stream">
+  @for (line of lines; track $index; let i = $index) {
+    <p
+      class="lyric-line"
+      [class.empty]="!line.trim()"
+      [style.animation-delay]="i * 1.5 + 's'"
+    >{{ line || ' ' }}</p>
+  }
+</div>

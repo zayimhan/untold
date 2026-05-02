@@ -1,0 +1,97 @@
+/* ── Outer wrapper: slides in from below ─────────────────── */
+.letter-wrap {
+  animation: wrap-enter 1s ease forwards;
+  opacity: 0;
+  width: 100%;
+}
+
+@keyframes wrap-enter {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Aged paper ──────────────────────────────────────────── */
+.letter-paper {
+  background:
+    /* foxing / age stains */
+    radial-gradient(ellipse at 92% 8%,  rgba(160, 120, 60, 0.18) 0%, transparent 45%),
+    radial-gradient(ellipse at 5%  80%, rgba(140, 100, 40, 0.12) 0%, transparent 40%),
+    radial-gradient(ellipse at 60% 95%, rgba(170, 130, 70, 0.10) 0%, transparent 35%),
+    /* base paper */
+    linear-gradient(165deg, #f4e8cc 0%, #eddfc0 55%, #e8d8b5 100%);
+  border: 1px solid #c9b08a;
+  box-shadow:
+    0 2px 6px  rgba(0, 0, 0, 0.25),
+    0 8px 32px rgba(0, 0, 0, 0.45),
+    inset 0 0 40px rgba(0, 0, 0, 0.04);
+  color: #2a1a0a;
+  font-family: var(--font-serif);
+  max-width: 480px;
+  padding: 2.4rem 2.8rem 2.2rem;
+  position: relative;
+  transform: rotate(-0.6deg);
+  width: 100%;
+
+  /* left-edge shadow mimicking a fold */
+  &::before {
+    background: linear-gradient(to right, rgba(0,0,0,0.06), transparent);
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+}
+
+/* ── Heading ─────────────────────────────────────────────── */
+.letter-heading {
+  color: #5a3e22;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* ── Rule between heading and body ──────────────────────── */
+.letter-rule {
+  border: none;
+  border-top: 1px solid #c0a070;
+  margin-bottom: 1.4rem;
+  opacity: 0.6;
+  width: 100%;
+}
+
+/* ── Body: each line fades in individually ───────────────── */
+.letter-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  line-height: 1.95;
+  margin-bottom: 1.8rem;
+}
+
+.letter-line {
+  animation: ink-in 0.7s ease forwards;
+  color: #2a1a0a;
+  display: block;
+  font-size: 0.97rem;
+  font-style: italic;
+  opacity: 0;
+}
+
+@keyframes ink-in {
+  from { opacity: 0; transform: translateX(-4px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Signature ───────────────────────────────────────────── */
+.letter-sig {
+  animation: ink-in 0.7s ease forwards;
+  color: #6b4a28;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  opacity: 0;
+  text-align: right;
+}

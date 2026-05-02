@@ -1,0 +1,120 @@
+<main class="stage">
+
+  <!-- Input screen -->
+  @if (state() === 'waiting') {
+    <div class="input-screen">
+      <header class="site-title">Untold — 1973</header>
+      <app-input-panel (submitted)="onSubmit($event)" />
+      @if (error()) {
+        <p class="error">{{ error() }}</p>
+      }
+    </div>
+  }
+
+  <!-- Fetching: "while you still have the chance" → say it → seal it -->
+  @if (state() === 'fetching') {
+    <div class="fetching-screen">
+      <div class="fetching-inner">
+        <p class="fetching-whisper">while you still have the chance</p>
+        <div class="fetching-rule"></div>
+        <div class="fetching-cta-stack">
+          <p class="fetching-call">say it.</p>
+          <p class="fetching-seal">seal it.</p>
+        </div>
+      </div>
+    </div>
+  }
+
+  <!-- Main scene: centered single-column layout -->
+  @if (isSceneVisible()) {
+    <div class="scene">
+      <div class="content-wrap">
+
+        <!-- Primary: generated lyrics -->
+        <div class="lyric-block">
+          <app-lyric-stream [lines]="lyricLines()" />
+        </div>
+
+        <!-- Search theater: below lyrics during reveal -->
+        @if (state() === 'lyric_revealing') {
+          <div class="search-block">
+            <app-search-theater />
+          </div>
+        }
+
+        <!-- Secondary: archive letter + door, side by side -->
+        @if (isArchiveVisible()) {
+          <div class="archive-door-row" [class.door-hidden]="!isDoorVisible()">
+
+            <div class="archive-section">
+              <app-archive-echo [match]="topMatch()" />
+              @if (state() === 'options') {
+                <app-options-panel
+                  (seal)="sealIt()"
+                  (leave)="leaveIt()"
+                />
+              }
+            </div>
+
+            @if (isDoorVisible()) {
+              <div class="door-section">
+                <app-door-scene [phase]="doorPhase()" />
+              </div>
+            }
+
+          </div>
+        }
+
+      </div>
+    </div>
+  }
+
+  <!-- Envelope sealing animation -->
+  @if (state() === 'sealing' || state() === 'sealed') {
+    <div class="envelope-layer">
+      <app-envelope-scene
+        [lyricLines]="lyricLines()"
+        (complete)="onSealingComplete()"
+      />
+    </div>
+  }
+
+  <!-- Sealed: Send button over sealed envelope -->
+  @if (state() === 'sealed') {
+    <div class="sealed-layer">
+      <p class="sealed-text">The envelope has been sealed.</p>
+      <button class="btn-send-it" (click)="sendIt()">Send it.</button>
+    </div>
+  }
+
+  <!-- Sending: door opens + envelope flight through doorway -->
+  @if (state() === 'sending' || state() === 'sent') {
+    <div class="sending-layer" [class.is-sent]="state() === 'sent'">
+
+      <div class="sending-door-wrap">
+        <app-door-scene [phase]="doorPhase()" />
+      </div>
+
+      @if (state() === 'sending') {
+        <app-envelope-flight />
+      }
+
+      @if (state() === 'sent') {
+        <p class="sent-text">The letter has left.</p>
+        <button class="reset-btn" (click)="reset()">Begin again.</button>
+      }
+
+    </div>
+  }
+
+  <!-- Leaving / gone -->
+  @if (state() === 'leaving' || state() === 'gone') {
+    <div class="leaving-layer">
+      @if (state() === 'gone') {
+        <p class="gone-text">The door is closed.</p>
+        <button class="reset-btn dim" (click)="reset()">Begin again.</button>
+      }
+    </div>
+  }
+
+</main>

@@ -1,0 +1,107 @@
+.options {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 3rem;
+}
+
+.cta-stack {
+  align-items: center;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  position: relative;
+  width: 12rem;
+}
+
+.cta {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-style: italic;
+  position: absolute;
+  transition: opacity 0.9s ease, color 0.9s ease;
+}
+
+.cta-say {
+  color: var(--text-dim);
+  left: 0;
+  opacity: 1;
+  right: 0;
+  text-align: center;
+
+  &::after {
+    background: var(--text-dim);
+    content: '';
+    height: 1.5px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+    width: 100%;
+  }
+}
+
+.cta-seal {
+  color: var(--accent);
+  left: 0;
+  opacity: 0;
+  right: 0;
+  text-align: center;
+}
+
+.is-transitioned {
+  .cta-say {
+    opacity: 0.35;
+
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+
+  .cta-seal {
+    opacity: 1;
+  }
+}
+
+.actions {
+  animation: panel-actions-in 0.8s ease 1.6s forwards;
+  display: flex;
+  gap: 1.5rem;
+  opacity: 0;
+}
+
+@keyframes panel-actions-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+button.primary,
+button.secondary {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  padding: 0.7rem 1.8rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+button.primary:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+button.secondary {
+  border-color: var(--text-dim);
+  color: var(--text-dim);
+}
+
+button.secondary:hover {
+  border-color: var(--text);
+  color: var(--text);
+}

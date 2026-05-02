@@ -1,0 +1,75 @@
+<div class="env-scene" [class]="'ep-' + phase()">
+
+  <!-- Folded letter / paper -->
+  <div class="letter">
+    <div class="letter-body">
+      @for (i of paperLines; track i) {
+        <div class="l-line" [class.short]="i % 4 === 3" [class.gap]="i % 5 === 4"></div>
+      }
+    </div>
+  </div>
+
+  <!-- Envelope (SVG-based, old letter look) -->
+  <div class="envelope">
+
+    <!-- Main envelope body with V-fold marks -->
+    <svg class="env-body-svg" viewBox="0 0 300 190" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <!-- Paper body -->
+      <rect width="300" height="190" rx="2" fill="#d8ccb0" stroke="#a89870" stroke-width="1.5"/>
+      <!-- V-fold lines (characteristic of real envelopes) -->
+      <line x1="0"   y1="0"   x2="150" y2="112" stroke="#b8a882" stroke-width="0.8" opacity="0.7"/>
+      <line x1="300" y1="0"   x2="150" y2="112" stroke="#b8a882" stroke-width="0.8" opacity="0.7"/>
+      <line x1="0"   y1="190" x2="150" y2="112" stroke="#b8a882" stroke-width="0.8" opacity="0.7"/>
+      <line x1="300" y1="190" x2="150" y2="112" stroke="#b8a882" stroke-width="0.8" opacity="0.7"/>
+      <!-- Bottom flap shading -->
+      <polygon points="0,190 300,190 150,112" fill="#c8bb98" opacity="0.45"/>
+      <!-- Left flap shading -->
+      <polygon points="0,0 0,190 150,112" fill="#c4b894" opacity="0.22"/>
+      <!-- Right flap shading -->
+      <polygon points="300,0 300,190 150,112" fill="#c4b894" opacity="0.22"/>
+      <!-- Subtle age spots -->
+      <circle cx="42"  cy="155" r="14" fill="#a89268" opacity="0.06"/>
+      <circle cx="258" cy="28"  r="9"  fill="#a89268" opacity="0.07"/>
+      <!-- Postage area (top right corner) -->
+      <rect x="256" y="6" width="36" height="28" rx="1"
+            fill="none" stroke="#a89268" stroke-width="0.8" opacity="0.35"
+            stroke-dasharray="2 2"/>
+    </svg>
+
+    <!-- Flap (triangle, animated to close) -->
+    <div class="env-flap-wrap">
+      <svg class="env-flap-svg" viewBox="0 0 300 108" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <!-- Flap triangle: base at top, tip points down -->
+        <polygon points="0,0 300,0 150,104" fill="#cfc09e" stroke="#a89870" stroke-width="1.5"/>
+        <!-- Inner crease lines for depth -->
+        <line x1="12"  y1="3"  x2="150" y2="96" stroke="#b8a878" stroke-width="0.6" opacity="0.5"/>
+        <line x1="288" y1="3"  x2="150" y2="96" stroke="#b8a878" stroke-width="0.6" opacity="0.5"/>
+        <!-- Slight top highlight -->
+        <line x1="0" y1="1" x2="300" y2="1" stroke="#e0d4b8" stroke-width="0.5" opacity="0.5"/>
+      </svg>
+    </div>
+
+    <!-- Wax seal (appears last) -->
+    <div class="wax-seal-wrap">
+      <svg class="seal-svg" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+        <!-- Dripped wax outer edge (irregular) -->
+        <circle cx="26" cy="26" r="24" fill="#6b1212" opacity="0.85"/>
+        <!-- Main seal body -->
+        <circle cx="26" cy="26" r="21" fill="#7c1818"/>
+        <!-- Inner decorative ring -->
+        <circle cx="26" cy="26" r="17" fill="none" stroke="#a83030" stroke-width="0.7" opacity="0.6"/>
+        <circle cx="26" cy="26" r="14" fill="none" stroke="#8a2020" stroke-width="0.4" opacity="0.4"/>
+        <!-- U monogram (Untold) -->
+        <text x="26" y="32"
+              text-anchor="middle"
+              font-family="Georgia, serif"
+              font-size="16"
+              font-style="italic"
+              fill="#c86060"
+              opacity="0.88">U</text>
+      </svg>
+    </div>
+
+  </div>
+
+</div>

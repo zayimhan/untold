@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "vl_001",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A young infantryman, writing but never sending, to his mother",
+    "text": "Mom, I keep writing you letters I never put in the mailbag. There are things I see here I don't want you carrying in your head for the rest of your life. So I tell you about the weather instead.",
+    "theme_tags": [
+      "unspoken",
+      "protection",
+      "distance",
+      "son_to_mother"
+    ],
+    "inspired_by": "The unsent-letter-to-mother is one of the most documented patterns in Vietnam correspondence (Bernard Edelman's 'Dear America' anthology, VHP family donations of unsent letters, Library of Congress Vietnam letter collections). The specific pattern of writing about weather instead of combat is widely attested across these sources."
+  },
+  {
+    "id": "vl_002",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A lieutenant to his wife, drafted at night, never sent",
+    "text": "Being in charge means I can't tell the men I'm afraid. And I can't tell you either, because you already sit by the phone every night. So I write it down and burn it. That way someone knows.",
+    "theme_tags": [
+      "loneliness_of_command",
+      "fear",
+      "burned_letter",
+      "marriage"
+    ],
+    "inspired_by": "The 'loneliness of command' burden — officers unable to share fear with subordinates or with spouses — is documented in oral history work with Vietnam-era junior officers (Vietnam Center Archive at Texas Tech, Maine VVOH project). Burned-letter motifs appear specifically in Lewis Sorley's 'A Better War' and several officer memoirs."
+  },
+  {
+    "id": "vl_004",
+    "source_type": "vietnam_letter",
+    "year": 1971,
+    "context": "A soldier returning home, to his father",
+    "text": "They told us to wear civvies through the airport. I didn't understand why until I saw the signs. I came home to a country that didn't want me to come home. I can't say this to you out loud because you put a flag in the yard the day I left.",
+    "theme_tags": [
+      "homecoming",
+      "father",
+      "shame",
+      "returning"
+    ],
+    "inspired_by": "Documented homecoming experience: returning soldiers were instructed to wear civilian clothes through airports due to anti-war hostility (CBS News interviews with Nancy Wells and others, Iowa PBS 'Iowans Remember Vietnam'). The pattern of fathers who flew flags vs. sons who came back disillusioned is widely written about in Christian Appy's 'Patriots: The Vietnam War Remembered'."
+  },
+  {
+    "id": "vl_005",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A nineteen-year-old to his girlfriend, five days before he died",
+    "text": "I keep thinking about Easter mornings. You in that yellow dress. The fact that I can't stop thinking about it tells me something I don't want to say. If this gets to you, read it twice. If it doesn't, you won't know there was anything to read.",
+    "theme_tags": [
+      "premonition",
+      "young_love",
+      "not_knowing",
+      "last_words"
+    ],
+    "inspired_by": "The 'last letter before death' phenomenon is extensively archived at the Vietnam Veterans Memorial Fund's Wall of Faces project and in 'Last Letters Home' (HBO documentary, 2004). The premonition motif appears in numerous documented cases including Ronald Robinson, profiled in PBS American Experience's War Letters series."
+  },
+  {
+    "id": "vl_007",
+    "source_type": "vietnam_letter",
+    "year": 1972,
+    "context": "A soldier about his best friend killed the week before",
+    "text": "Danny's mother will get a folded flag and a letter from a colonel who didn't know his name. I knew his name. I knew he wanted a red truck when he got home. That's what I can't put in a letter to her.",
+    "theme_tags": [
+      "survivor_guilt",
+      "small_details",
+      "what_he_wanted",
+      "friendship"
+    ],
+    "inspired_by": "Survivor guilt in Vietnam is extensively documented (Jonathan Shay, 'Achilles in Vietnam'; Dr. Erwin Parson's clinical work). The specific motif of remembering small private wishes of the dead — what they wanted to do when they got home — appears in Tim O'Brien's writings and across Wallace Terry's 'Bloods'."
+  },
+  {
+    "id": "vl_008",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "An infantryman writing to the family of a man he shot",
+    "text": "I carry your picture in my wallet. I have carried it for a long time. I know what I took from you. I'm writing this letter I will never send because the alternative is to keep carrying it alone, and I cannot do that anymore.",
+    "theme_tags": [
+      "guilt",
+      "enemy",
+      "private_confession",
+      "carrying"
+    ],
+    "inspired_by": "The 'unsent letter to the family of the enemy you killed' is a documented confessional pattern. Specifically associated with Richard Luttrell's case (PBS American Experience War Letters), in which he carried a Vietnamese soldier's photo for 22 years before writing a letter of apology and eventually meeting the man's family in 2000."
+  },
+  {
+    "id": "vl_009",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A draftee to his kid sister",
+    "text": "You asked me in your last letter if it's like in the movies. Don't ask me that again. Ask me about the weather. Ask me if I've seen any monkeys. Those are the questions I have answers for.",
+    "theme_tags": [
+      "shielding",
+      "sister",
+      "innocence",
+      "deflection"
+    ],
+    "inspired_by": "Pattern of soldiers shielding younger siblings from combat reality is documented across VHP family correspondence collections. The specific tactic of redirecting questions toward weather and minor anecdotes appears in family-donated letter caches at the Library of Congress."
+  },
+  {
+    "id": "vl_010",
+    "source_type": "vietnam_letter",
+    "year": 1971,
+    "context": "A veteran, writing in the margin of a letter he never sent his father",
+    "text": "You wanted me to come back the same boy who left. I came back. I'm the same weight. I answer to the same name. That's as far as it goes. I think we both know that now but neither of us is going to say it at dinner.",
+    "theme_tags": [
+      "father_son",
+      "unchanged_surface",
+      "silence_at_table",
+      "return"
+    ],
+    "inspired_by": "The pattern of returned veterans appearing 'unchanged' on the surface while internally estranged from family is documented in the work of Dr. Edward Tick ('War and the Soul') and across Vietnam veteran family-therapy literature. The 'silence at dinner' motif appears in numerous veteran memoirs."
+  },
+  {
+    "id": "cc_002",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A young woman after Kent State",
+    "text": "Four kids our age. They were just standing there. When my mother called to see if I was all right, I told her I was. I was not all right. But she was afraid and I didn't want to add to her fear. So I lied, and that lie is still in my chest.",
+    "theme_tags": [
+      "kent_state",
+      "lying_to_protect",
+      "mother",
+      "weight"
+    ],
+    "inspired_by": "Kent State student responses to maternal phone calls are documented in the May 4 Oral History Collection at Kent State University. The pattern of lying to protect anxious parents is recurring across student narratives from May 4-5, 1970."
+  },
+  {
+    "id": "cc_003",
+    "source_type": "counterculture",
+    "year": 1968,
+    "context": "A young man turning in his draft card",
+    "text": "My father fought in the Pacific. He hasn't spoken to me since the photograph came out in the paper. I did the right thing. That's what I tell myself on the nights when the right thing and the lonely thing are the same thing.",
+    "theme_tags": [
+      "draft_resistance",
+      "father_silence",
+      "right_and_lonely",
+      "principle"
+    ],
+    "inspired_by": "Draft resistance and intergenerational silence with WWII-veteran fathers is documented in Michael Foley's 'Confronting the War Machine: Draft Resistance During the Vietnam War' and in oral histories at the Swarthmore College Peace Collection. The specific pattern of fathers refusing to speak after public draft-card burnings is widely attested."
+  },
+  {
+    "id": "cc_004",
+    "source_type": "counterculture",
+    "year": 1972,
+    "context": "A woman leaving the movement",
+    "text": "I thought we were going to change the world. We changed each other, and then we broke each other, and now the world looks almost exactly the same. I don't know what to do with that. I don't know where to put the years.",
+    "theme_tags": [
+      "movement",
+      "disillusion",
+      "lost_years",
+      "change"
+    ],
+    "inspired_by": "The 'movement leaving' experience of women in late 60s/early 70s antiwar work is documented in Sara Evans's 'Personal Politics' and in oral histories from Berkeley Oral History Center. The disillusionment with movement transformation having failed to transform the world is a major theme of late-60s feminist memoir."
+  },
+  {
+    "id": "dy_001",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the feeling of the song's refrain, in the spirit of Dylan's 1973",
+    "text": "Some things you set down because you can't carry them another mile. The badge. The gun. The name you answered to. What's left after you set them down is the thing you were all along, and you don't recognize it.",
+    "theme_tags": [
+      "setting_down",
+      "identity_loss",
+      "weight",
+      "recognition"
+    ],
+    "inspired_by": "Composed in the project's Dylan-era reflective register. Synthesizes the song's central imagery (badge, gun, name) with the wider 1973 cultural mood of laying down arms — a theme paralleled in the Pat Garrett & Billy the Kid soundtrack and Dylan's 1973-74 interviews."
+  },
+  {
+    "id": "dy_002",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the dying sheriff, paraphrased in Dylan's spirit",
+    "text": "There is a kind of evening where the light goes and you know you will not see the next morning. You don't fight it. You call for your mother, whoever your mother is. The word itself is the door.",
+    "theme_tags": [
+      "dying",
+      "evening_light",
+      "calling_mother",
+      "threshold"
+    ],
+    "inspired_by": "Composed reflection grounded in the song's narrative origin: the dying sheriff scene in Sam Peckinpah's 'Pat Garrett & Billy the Kid' (1973), for which Dylan wrote the song. The 'word as door' image draws on Dylan's later Nobel lecture (2017) reflections on the relationship between language and threshold."
+  },
+  {
+    "id": "dy_003",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On what the counterculture had become by 1973",
+    "text": "The songs we sang in sixty-five meant one thing. By seventy-three they meant another. Same words, different weight. The people who wrote them became strangers to the people who sang them, and both of them became strangers to themselves.",
+    "theme_tags": [
+      "time_passing",
+      "same_words_different_weight",
+      "estrangement",
+      "era_ending"
+    ],
+    "inspired_by": "Composed reflection on the documented cultural shift between 1965 and 1973 — extensively analyzed in Greil Marcus's 'Like a Rolling Stone: Bob Dylan at the Crossroads' and in David Hajdu's 'Positively 4th Street'. The 'same words, different weight' phenomenon describes the late-counterculture experience of inherited slogans losing their original meaning."
+  },
+  {
+    "id": "dy_005",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the door imagery itself",
+    "text": "Knocking is a question. You knock because you do not know who answers. You knock because there is no other way to ask the question you cannot say out loud. You knock, and you wait, and the waiting is also part of what you cannot say.",
+    "theme_tags": [
+      "knocking_as_question",
+      "unspoken_question",
+      "waiting",
+      "threshold"
+    ],
+    "inspired_by": "Composed in the project's reflective register on the song's central act. Draws on Dylan's Nobel Prize lecture (2017) and on the philosophical literature of the threshold (Heidegger, Bachelard's 'Poetics of Space') — the door as the architectural form of the unspoken question."
+  },
+  {
+    "id": "vl_012",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A POW's wife at home, diary entry",
+    "text": "They said to keep his side of the closet the way he left it. Three years now. The shirts still smell like him if I press my face in. I don't tell anyone I do this. I don't tell anyone I have forgotten what his voice sounds like when it is not on a tape.",
+    "theme_tags": [
+      "waiting",
+      "pow_wife",
+      "forgetting_voice",
+      "shirt_in_closet"
+    ],
+    "inspired_by": "POW wife waiting narratives are documented in 'When Hell Was in Session' (Jeremiah Denton), 'Love and Duty' (Heath Hardage Lee), and the National League of POW/MIA Families archives. The specific motif of preserved closets and forgotten voices appears across these sources, particularly in the Operation Homecoming preparation literature."
+  },
+  {
+    "id": "cc_006",
+    "source_type": "counterculture",
+    "year": 1971,
+    "context": "A returning Vietnam veteran joining an antiwar rally, inner monologue",
+    "text": "I threw my medals over the fence with the others. The cameras took pictures. What the cameras didn't take was the part where I wanted them back ten minutes later and knew I could never ask. Some things you only get to throw away once.",
+    "theme_tags": [
+      "vvaw",
+      "medal_throwing",
+      "regret",
+      "irreversible"
+    ],
+    "inspired_by": "The Vietnam Veterans Against the War (VVAW) Operation Dewey Canyon III medal-throwing event (April 1971) is documented in news coverage and VVAW archives. The specific pattern of immediate regret after irreversible public action appears in later VVAW oral histories at the Wisconsin Historical Society."
+  },
+  {
+    "id": "cc_007",
+    "source_type": "counterculture",
+    "year": 1973,
+    "context": "A young person at the end of the movement, to a former comrade",
+    "text": "We used to finish each other's sentences. Now I see you across a room and we both look somewhere else. I don't know when we decided this. I know neither of us is going to be the one to walk across the room. So we won't.",
+    "theme_tags": [
+      "friendship_lost",
+      "movement_ending",
+      "silence",
+      "across_room"
+    ],
+    "inspired_by": "End-of-movement friendship dissolution is documented in Todd Gitlin's 'The Sixties: Years of Hope, Days of Rage' and in oral histories of former SDS/SNCC activists. The 'across the room' motif of mutual avoidance appears in numerous late-1970s reunion accounts."
+  },
+  {
+    "id": "vl_014",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A chaplain writing to himself",
+    "text": "I said the words over another boy today. I don't remember whose he was. I hope his mother finds comfort in the words. I find none. I cannot write this in a letter because the letter would have to go somewhere and there is nowhere for it to go.",
+    "theme_tags": [
+      "chaplain",
+      "empty_ritual",
+      "comforting_others",
+      "losing_faith"
+    ],
+    "inspired_by": "Military chaplain crisis-of-faith is documented in Doris Bergen's 'The Sword of the Lord: Military Chaplains from the First to the Twenty-First Century' and in interviews collected by the Army Chaplain Corps Historical Office. The pattern of saying ritual words over unfamiliar dead while internal faith eroded is widely attested in Vietnam-era chaplaincy memoir."
+  },
+  {
+    "id": "dy_006",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the sheriff's badge, in the spirit of the song",
+    "text": "The badge was never the man. You find that out when you can't use it anymore. You find out there is a man under the badge and he is smaller than you thought and the smallness is not a failing. It is just the size of a man.",
+    "theme_tags": [
+      "role_vs_self",
+      "smallness",
+      "honest_size",
+      "identity"
+    ],
+    "inspired_by": "Composed reflection on the song's central image (the badge that can no longer be used). Synthesizes the song's lyrics with broader 1973 reflections on identity stripped of role — a theme present in Dylan's writings of the period and in the Peckinpah film's ending sequence."
+  },
+  {
+    "id": "cc_008",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A young woman writing about her boyfriend who shipped out",
+    "text": "He asked me to wait and I said I would. He is coming back, the letter says. He is coming back but the him I waited for is not the him arriving. I don't know how to tell him I kept my promise to the wrong person.",
+    "theme_tags": [
+      "waiting",
+      "changed_person",
+      "promise_to_ghost",
+      "girlfriend"
+    ],
+    "inspired_by": "The 'I waited for one man and another came home' phenomenon is documented in oral histories from the National Archives Vietnam Wives project and in Patricia Walsh's memoir work. The pattern of women keeping promises to a person who no longer existed appears across veteran-spouse divorce literature."
+  },
+  {
+    "id": "vl_016",
+    "source_type": "vietnam_letter",
+    "year": 1971,
+    "context": "A veteran in a VA hospital, to no one",
+    "text": "The nurse asks me how I'm feeling. I say fine. She knows it isn't fine. She writes down fine because fine is what fits in the box. There isn't a box for the real answer. If there were, I wouldn't know how to fill it.",
+    "theme_tags": [
+      "va_hospital",
+      "no_words_for_it",
+      "fine",
+      "nurse"
+    ],
+    "inspired_by": "VA hospital narratives of veterans unable to articulate their experience to medical staff are documented in Wilbur Scott's 'The Politics of Readjustment' and in early PTSD literature (the disorder was not formally recognized until 1980). The 'fine in the box' motif appears in psychiatric intake records analyzed in clinical retrospectives."
+  },
+  {
+    "id": "vl_018",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A grown soldier remembering his mother's silence at the bus station",
+    "text": "She did not cry at the station. She held my face between her hands and looked at me the way you look at something you are about to lose. I thought she was being strong. I know now she was memorizing me. I never told her I noticed. I should have told her I noticed.",
+    "theme_tags": [
+      "gratitude",
+      "mother",
+      "memorizing",
+      "regret_of_not_thanking"
+    ],
+    "inspired_by": "The mother-at-bus-station memorization motif appears across Vietnam-era farewell narratives, particularly in 'Last Letters Home' archive materials and in Tim O'Brien's 'The Things They Carried' (memoir-based fiction). Maternal anticipatory grief — looking at a son as if he were already gone — is documented in the war-bereavement literature of Pauline Boss ('Ambiguous Loss')."
+  },
+  {
+    "id": "vl_019",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "An older brother to his younger brother, sealed in an envelope marked 'open if'",
+    "text": "If you are reading this it means I did not get to say it. You followed me everywhere when we were small and I called you a pest. You were not a pest. You were the first person who ever looked up to me and I did not know what a gift that was until I was on the other side of the world.",
+    "theme_tags": [
+      "brother_love",
+      "older_brother",
+      "regret",
+      "open_if_letter",
+      "childhood"
+    ],
+    "inspired_by": "The 'open if I don't return' letter is a documented military correspondence form — soldiers from WWI through Vietnam wrote them. Examples are preserved in the VHP collection (e.g. Marine Lance Cpl. Mark Ryan Black's audio letters, donated posthumously). The brother-to-younger-brother variant appears in family-donated caches at the Library of Congress."
+  },
+  {
+    "id": "cc_009",
+    "source_type": "counterculture",
+    "year": 1972,
+    "context": "A man writing to a friend he had a falling out with two years before",
+    "text": "I have written you this letter eleven times and torn it up eleven times. The first ten were about who was right. This one is about how I miss you. I do not know if that is enough to put in the mailbox. I do not know if anything is.",
+    "theme_tags": [
+      "reconciliation_attempt",
+      "torn_up_letters",
+      "missing_friend",
+      "pride",
+      "estrangement"
+    ],
+    "inspired_by": "The repeatedly-torn-up reconciliation letter is a documented pattern in oral history collections of estranged 60s-era friendships. Specifically inspired by patterns in the Berkeley Oral History Center's Movement Family Stories project, where former comrades described drafting reconciliation letters across years without sending them."
+  },
+  {
+    "id": "cc_010",
+    "source_type": "counterculture",
+    "year": 1971,
+    "context": "A woman writing to her sister after years of silence",
+    "text": "I know I was the one who stopped writing. I do not have a reason that makes sense. The longer the silence got, the harder the first sentence got. I am writing now because I am tired of being someone who lost a sister to nothing in particular.",
+    "theme_tags": [
+      "sister_estrangement",
+      "self_blame",
+      "breaking_silence",
+      "tired_of_silence"
+    ],
+    "inspired_by": "The 'breaking long silence with a sister' pattern appears in second-wave feminist writing about family estrangement, particularly Tillie Olsen's 'Tell Me a Riddle' and Adrienne Rich's essays on women's intergenerational silence. The motif of silence becoming harder to break the longer it lasts is widely written about in the family-systems literature."
+  },
+  {
+    "id": "vl_020",
+    "source_type": "vietnam_letter",
+    "year": 1972,
+    "context": "A young woman to her fiancé still serving, written but held back",
+    "text": "I am not leaving you. I want you to know that first. But the woman you proposed to in nineteen sixty-nine and the woman writing this letter are not the same woman, and I am afraid you have been writing letters to a girl who does not live here anymore. I do not know how to tell you this without it sounding like goodbye.",
+    "theme_tags": [
+      "fiancee",
+      "i_changed_too",
+      "fear_of_goodbye",
+      "long_war",
+      "different_person"
+    ],
+    "inspired_by": "The 'I changed too' letter from a fiancée at home to a deployed serviceman is documented in family-donated correspondence at the Library of Congress and in 'Wartime Letters of Promise' (NHGRI archives). The pattern of women whose lives transformed during long deployments — and who could not articulate this without sounding like goodbye — is a major theme in the war-bereavement literature."
+  },
+  {
+    "id": "dy_007",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the kind of love that arrives too late to say",
+    "text": "There is a love you only know how to say once the chance is gone. It sits in your chest like a small heavy stone. You can carry the stone or you can write it down somewhere and let the writing be the saying. Either way it is yours now. Either way you carry it.",
+    "theme_tags": [
+      "love_arrived_late",
+      "stone_in_chest",
+      "writing_as_saying",
+      "carrying"
+    ],
+    "inspired_by": "Composed in the project's Dylan-era reflective register. Synthesizes the late-arrival-of-love motif with the song's 'too dark to see' atmosphere. The 'stone in the chest' image draws on the broader 1970s songwriting tradition (Leonard Cohen, Joni Mitchell) of love articulated only after its object is gone."
+  },
+  {
+    "id": "vl_021",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A young soldier who has stopped praying, to no one",
+    "text": "I do not know what I am anymore. The boy who got on the plane prayed every night. The man writing this has not prayed in seven months. I do not miss it the way I thought I would. That is what frightens me. I do not know who I am if the praying boy is gone and the not-praying man is here in his place.",
+    "theme_tags": [
+      "loss_of_faith",
+      "existential",
+      "self_estrangement",
+      "who_am_i",
+      "praying_boy"
+    ],
+    "inspired_by": "Loss-of-faith narratives among Vietnam soldiers are documented across the literature: Dr. Erwin Parson's clinical work, Larry Heinemann's 'Paco's Story', Tim O'Brien's writings. The specific pattern of the 'praying boy' becoming a stranger to the 'not-praying man' appears in Vietnam veteran spiritual-crisis memoirs."
+  },
+  {
+    "id": "cc_011",
+    "source_type": "counterculture",
+    "year": 1973,
+    "context": "A young person at the end of the era, journal entry, to themselves",
+    "text": "I look in the mirror and the person looking back is wearing my face but I do not know her plans. She has plans. I can tell by her eyes. I am not in on them. I do not know when I stopped being in on them. I am writing this down because I do not know who else to tell.",
+    "theme_tags": [
+      "identity_crisis",
+      "mirror",
+      "stranger_to_self",
+      "lost_direction",
+      "journal"
+    ],
+    "inspired_by": "The 'mirror does not recognize me' identity crisis is documented in late-counterculture writing, particularly in Joan Didion's 'The White Album' (1979) and across women's-liberation journal entries from 1972-74. The mirror motif as marker of self-estrangement appears throughout this literature."
+  },
+  {
+    "id": "vl_022",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "An Army nurse in an evacuation hospital, written in a notebook she kept under her bunk",
+    "text": "I held a boy's hand today and told him he was going to be fine. He was not going to be fine. I knew it. He knew it. We both did the same thing for each other in that hour. I cannot put this in a letter to my mother because she still thinks I am the daughter who left in May.",
+    "theme_tags": [
+      "nurse",
+      "lying_to_dying",
+      "becoming_other",
+      "mother",
+      "evac_hospital"
+    ],
+    "inspired_by": "Documented in multiple Vietnam nurse oral histories (StoryCorps, Iowa PBS, VHP); the recurring motif of nurses telling dying soldiers they would survive, and the parallel of being unable to tell mothers back home what the work actually involved."
+  },
+  {
+    "id": "vl_023",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "An Army nurse on her flight home, written in the margin of a magazine",
+    "text": "They told me to change out of my uniform before the airport. I changed in the bathroom of the plane. I folded my fatigues and put them in my bag and walked out a stranger to the country I had been bleeding for. I am writing this on a magazine because I do not know yet who I would write a letter to.",
+    "theme_tags": [
+      "homecoming",
+      "civvies",
+      "stranger_to_country",
+      "no_one_to_write",
+      "nurse"
+    ],
+    "inspired_by": "Documented widely: Nancy Wells (CBS News oral history), Janis Nark (VVMF), Grace Moore (Iowa PBS) all describe being instructed to change out of uniform before returning home, and the silence that followed."
+  },
+  {
+    "id": "vl_024",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A nurse who fell in love with a pilot, after he was brought into her ward dying",
+    "text": "He cried in my arms once. He said he was tired of the killing. I told him it would be over soon. Three weeks later they brought him in on a stretcher and I knew before I lifted the sheet. I am not writing this to anyone. There is no one to write it to. I am writing it because if I do not write it down it will sit in me until I am also gone.",
+    "theme_tags": [
+      "nurse_pilot_romance",
+      "loss",
+      "no_recipient",
+      "writing_as_survival",
+      "tired_of_killing"
+    ],
+    "inspired_by": "Carol Kirk's account on StoryCorps (NPR Memorial Day broadcast, 2025): she met a pilot named Frank who admitted to crying about the killing; he was brought into her ward fatally wounded, and she found herself praying he would not survive."
+  },
+  {
+    "id": "vl_025",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A Black soldier writing to his mother in Detroit after Dr. King's assassination",
+    "text": "Mama, they fly the Confederate flag from the back of a jeep on this base. I am supposed to walk past it on the way to chow. Dr. King is dead and I am still here, fighting for a country that lets that flag fly over my head. I cannot write you about this because you would tell me to come home, and there is no coming home from this kind of away.",
+    "theme_tags": [
+      "black_soldier",
+      "MLK_assassination",
+      "confederate_flag",
+      "mother",
+      "no_coming_home"
+    ],
+    "inspired_by": "Wikipedia and Wallace Terry's 'Bloods': after MLK's assassination in April 1968, overt racist incidents on Vietnam bases (including Confederate flag displays) became commonplace; documented in 33 incidents in two months between Dec 1969 and Jan 1970."
+  },
+  {
+    "id": "vl_026",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A Black Marine, after a captain chose a white soldier to walk point on a suicide mission",
+    "text": "I was the one walking point that morning. The captain looked at us both. I am writing this because I have carried it for years and I cannot say it out loud, even now. I do not know if I am alive because I am Black or because the captain was decent. I do not know which possibility I want to be true.",
+    "theme_tags": [
+      "black_marine",
+      "racial_calculus",
+      "survivor",
+      "uncertain_grace",
+      "captain"
+    ],
+    "inspired_by": "Stewart's account in Wil Haygood's 'The War Within A War' (Veterans Breakfast Club interview, 2024): the captain chose his white companion to walk point in a valley, who was killed; Stewart spent decades wondering whether the choice was racial protection or its opposite."
+  },
+  {
+    "id": "vl_027",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A Black soldier, leaflets dropped by the North Vietnamese in the jungle",
+    "text": "They drop pamphlets in the jungle that say go home, this is not your war. I picked one up and put it in my pocket and I have been walking around with it for three weeks. I do not know what I am supposed to do with a piece of paper that is right in a way nobody at home would understand.",
+    "theme_tags": [
+      "black_soldier",
+      "NVA_leaflets",
+      "carrying_paper",
+      "uncomfortable_truth",
+      "jungle"
+    ],
+    "inspired_by": "Documented in Goodwin's academic paper and Wallace Terry's 'Bloods': the North Vietnamese deliberately dropped English-language leaflets aimed at Black soldiers, drawing parallels between their treatment in Vietnam and at home in America."
+  },
+  {
+    "id": "cc_012",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A Kent State student, the morning after, in a phone booth",
+    "text": "I called my father from a phone booth on Main Street the morning after. The streets were empty in a way streets are not supposed to be empty. I told him I was fine. He said good, and there was a long pause, and then we both pretended the pause was the line. I have not asked him what he was going to say. I do not think I want to know.",
+    "theme_tags": [
+      "kent_state",
+      "father_phone_call",
+      "long_pause",
+      "afraid_to_ask",
+      "empty_streets"
+    ],
+    "inspired_by": "Multiple Kent State student narratives in the May 4 Oral History Collection; the recurring motif of phone calls home in the immediate aftermath where neither party could fully speak. Specifically inspired by an Ideastream Public Media account of Ravenna's empty streets the evening of May 4, 1970."
+  },
+  {
+    "id": "cc_013",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "An Ohio National Guardsman, writing to himself decades later",
+    "text": "I was twenty-one. I had a job at the rubber plant and a baby coming. They handed me a rifle and put me on a hill. For fifty years I have not told the people in my own house what happened on that hill. I do not know who I am keeping the silence for anymore. I am writing this down because the silence got too heavy to keep wearing.",
+    "theme_tags": [
+      "national_guard",
+      "kent_state",
+      "fifty_year_silence",
+      "rubber_plant",
+      "decades_later"
+    ],
+    "inspired_by": "Kent State Guardsmen Oral History Project (Ohio Northern University, 2022-2023): documents that most Guardsmen remained silent for decades, fearing public backlash; many worked at Goodyear, Akron Brass, paper mills."
+  },
+  {
+    "id": "cc_014",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A Vietnam veteran who was also a Kent State student, after his father's reaction",
+    "text": "My father was so loud after Kent State that my mother started shutting the windows so the neighbors would not hear. He blamed the students. I had been one of the students that morning. I did not say it. The window was shut. I let the window stay shut.",
+    "theme_tags": [
+      "vet_and_student",
+      "father_anger",
+      "shut_windows",
+      "kent_state",
+      "double_silence"
+    ],
+    "inspired_by": "James Stroh's account (Ideastream Public Media): a Vietnam veteran who was also a Kent State student, whose father became so loud about the shootings that his mother had to close the windows."
+  },
+  {
+    "id": "cc_015",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A young woman whose draft lottery number was low, writing to her boyfriend",
+    "text": "Your number came up. We have not talked about what that means. We have talked about everything else. The movie we want to see, the apartment we want next year, the dog we are going to name something silly. I am writing this letter to put in a drawer because I do not know how to ask you out loud whether next year is a thing we are going to have.",
+    "theme_tags": [
+      "draft_lottery",
+      "girlfriend",
+      "drawer_letter",
+      "afraid_to_ask",
+      "future_uncertain"
+    ],
+    "inspired_by": "Chuck Ayers and other Kent State students recall the centrality of draft lottery numbers in 1969-70 to relationships and life planning (Ideastream Public Media, 2020). The lottery number determined whether a young man would be drafted."
+  },
+  {
+    "id": "vl_028",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A gay soldier writing to a man he loves, knowing the letter cannot be sent",
+    "text": "There is no envelope I could put your name on. I write Mike instead of Michael in my journal so that if they read it they will think you are someone I served with. We were not someone I served with. I do not know what to call us in a language other people are allowed to read. I am writing this so that if I die here someone will at least know I had something I could not name.",
+    "theme_tags": [
+      "gay_soldier",
+      "no_envelope",
+      "coded_writing",
+      "no_language",
+      "private_journal"
+    ],
+    "inspired_by": "Documented widely (GLBT Historical Society, Larry Sanders memoir in Dallas Voice, the VVAW excerpt 'Drafted: My Year in Vietnam as a Gay Anti-War Soldier'): gay servicemen during Vietnam faced dishonorable discharge if discovered, and routinely coded their relationships in letters and journals."
+  },
+  {
+    "id": "vl_029",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A discharged soldier, after being given a 'Blue Discharge' for being gay",
+    "text": "The paper they gave me has a color. The color tells anyone who hires me what I am without saying it. My mother does not know what the color means. I have not corrected her. I am writing this because I am tired of carrying a paper whose meaning I am the only one in the room reading.",
+    "theme_tags": [
+      "gay_soldier",
+      "blue_discharge",
+      "secret_meaning",
+      "mother_doesnt_know",
+      "shame"
+    ],
+    "inspired_by": "Blue/undesirable discharges issued to gay servicemen, documented through GLBT Historical Society archives. The discharge color served as a marker employers and institutions could read, marking the recipient without explicitly naming the cause."
+  },
+  {
+    "id": "vl_030",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A son to his father, written on the bus to basic training",
+    "text": "I never told you that the way you laid out your tools on Saturday mornings is what I think a quiet kind of love looks like. You would line them up by size. You would wipe each one before you put it back. I am writing this on the bus because I do not know if I am coming back, and if I do not come back I do not want you to think I did not see what you did with the tools.",
+    "theme_tags": [
+      "father_son",
+      "gratitude",
+      "tools_on_saturday",
+      "before_basic",
+      "quiet_love"
+    ],
+    "inspired_by": "The unspoken-thanks-from-son-to-father is a recurring motif across Vietnam-era veteran memoirs and Library of Congress VHP narratives; specifically the pattern of sons who only realized their father's love through small ritual acts (tool care, garage routines) and who could not voice it before deployment."
+  },
+  {
+    "id": "vl_031",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A father at home to his son in Vietnam, written and not sent",
+    "text": "I read your letters at the kitchen table after your mother goes to bed. She does not know I read them twice. I do not write back the way I want to write back because I do not know how to put what I feel into a sentence that will not make you worry. So I tell you about the lawn. Your mother thinks I do not feel things. I have not corrected her. I am writing this letter to leave in a drawer.",
+    "theme_tags": [
+      "father_to_son",
+      "kitchen_table",
+      "reading_twice",
+      "lawn_instead",
+      "drawer_letter"
+    ],
+    "inspired_by": "The mirror of the unspoken-son-to-father motif: fathers at home unable to express their feelings to deployed sons, instead writing about mundane matters. Documented in Vietnam-era family correspondence patterns."
+  },
+  {
+    "id": "vl_032",
+    "source_type": "vietnam_letter",
+    "year": 1971,
+    "context": "A chaplain who has lost his faith, in a notebook he keeps under his cot",
+    "text": "I gave the words over another body today and I felt nothing where the feeling used to be. I do not know when it left. I do not know if it is coming back. The men in my unit still come to me before patrol and I still put my hand on their heads and I still say what I am supposed to say. I cannot tell anyone that the saying has become a kind of lying. I am writing this to find out if I am still in here.",
+    "theme_tags": [
+      "chaplain",
+      "loss_of_faith",
+      "ritual_as_lying",
+      "hollow",
+      "checking_self"
+    ],
+    "inspired_by": "Multiple chaplain memoirs and VHP collections document the silent crisis of faith among military chaplains during Vietnam. The pattern of continuing ritual after belief has departed is well documented across late-war chaplaincy accounts."
+  },
+  {
+    "id": "vl_033",
+    "source_type": "vietnam_letter",
+    "year": 1972,
+    "context": "A soldier raised devout, after a year in country",
+    "text": "I knelt at the edge of my cot last night for the first time since June. I did not know what to say. I said hello and I felt foolish. I said it anyway. I do not know if anyone heard. I am writing this because the not-knowing is the worst part. The unbelieving was easier than the maybe-believing-again.",
+    "theme_tags": [
+      "return_to_prayer",
+      "uncertainty",
+      "not_knowing",
+      "maybe_believing",
+      "kneeling"
+    ],
+    "inspired_by": "Return-to-prayer narratives in Vietnam veteran memoirs (e.g. Tim O'Brien's writings, multiple VHP oral histories). The pattern of soldiers who lost faith in country and tentatively returned to it is well documented as more painful than either pure belief or pure disbelief."
+  },
+  {
+    "id": "cc_016",
+    "source_type": "counterculture",
+    "year": 1969,
+    "context": "A woman in SDS, after a planning meeting where her idea was claimed by a male comrade",
+    "text": "I said it first at the meeting and they did not hear it. He said it second and they did. I did not correct him in the room because we were planning a march against a war and I did not want to be the woman who broke the room over a sentence. I am writing this in my journal because the sentence still belongs to me here. Out there it does not belong to anyone yet.",
+    "theme_tags": [
+      "movement_sexism",
+      "stolen_idea",
+      "didnt_correct",
+      "private_ownership",
+      "SDS"
+    ],
+    "inspired_by": "Pervasive in second-wave feminist accounts of antiwar/SDS organizing (Tischler, Sara Evans 'Personal Politics', the 'West Side Group' formation). Women in mixed-movement spaces routinely had ideas claimed by male comrades and chose not to confront in solidarity moments."
+  },
+  {
+    "id": "cc_017",
+    "source_type": "counterculture",
+    "year": 1971,
+    "context": "A woman leaving the antiwar movement for the women's movement, writing to a former comrade",
+    "text": "I am not leaving the war. The war is leaving us, slowly, and I am leaving the rooms where you and I planned the leaving of the war. I cannot tell you why in a way you would hear. You would say I am fragmenting the struggle. You said that to Diane. You said it to Carol. I am writing this to say it once before I stop trying to say it.",
+    "theme_tags": [
+      "leaving_movement",
+      "feminism",
+      "fragmenting_struggle",
+      "named_predecessors",
+      "tired_of_explaining"
+    ],
+    "inspired_by": "Documented in Ellen Willis, Shulamith Firestone, and the Redstockings/West Side Group formation narratives: women left mixed antiwar organizations for women's liberation work, often after feeling unheard, and male comrades framed this as 'fragmenting the struggle.'"
+  },
+  {
+    "id": "cc_018",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A Black woman in a mostly-white feminist group, written in a notebook she keeps separate",
+    "text": "They want me to talk about being a woman in the meeting and they do not want me to talk about being Black. I am both at the same time. I cannot turn one off in order to be the other in the room. I am writing this in my own notebook because there is a room I have not been invited to yet, and when there is, this is what I will read out loud.",
+    "theme_tags": [
+      "intersectionality",
+      "white_feminism",
+      "cant_split_self",
+      "future_room",
+      "separate_notebook"
+    ],
+    "inspired_by": "Inspired by accounts from the Combahee River Collective and Black women's experiences in second-wave feminist spaces. Documented in Winifred Breines's 'The Trouble Between Us' and the Combahee River Collective's 1977 statement, which articulated the impossibility of separating race and gender."
+  },
+  {
+    "id": "vl_034",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A working-class draftee whose college-bound friends got deferments, written from base",
+    "text": "Tommy is at Penn State this fall. Mike is at Cornell. Jimmy got into Boston College on a deferment and a prayer. I am writing this from a foot locker in South Carolina. I do not blame them. That is the part I cannot say. I am the one writing letters from a foot locker and I am also the one not blaming them and the not-blaming is the part that is the heaviest.",
+    "theme_tags": [
+      "class_draft",
+      "deferment",
+      "working_class",
+      "not_blaming",
+      "foot_locker"
+    ],
+    "inspired_by": "The Vietnam draft's class structure is widely documented: college students received deferments while working-class men (disproportionately) were drafted. The internal experience of resentment-suppressed-by-decency is a pattern in Vietnam veteran oral histories (e.g. Wallace Terry's 'Bloods', Tim O'Brien's 'The Things They Carried' as memoir-based fiction)."
+  },
+  {
+    "id": "vl_035",
+    "source_type": "vietnam_letter",
+    "year": 1968,
+    "context": "A Mexican American soldier from East L.A., to his younger brother",
+    "text": "I do not know how to write this in either of our languages. The English wants me to be brave. The Spanish wants me to be honest. I am writing this in English because brave is what gets sent home. The honest part stays in my head, in Spanish, where Mom would understand it if I ever said it.",
+    "theme_tags": [
+      "chicano_soldier",
+      "two_languages",
+      "brave_vs_honest",
+      "mother_tongue",
+      "younger_brother"
+    ],
+    "inspired_by": "Documented in Charley Trujillo's 'Soldados: Chicanos in Viet Nam' and Tomás Summers Sandoval's Pomona College oral history project. Mexican American soldiers frequently described the bilingual split between what could be written and what could be felt; many came from Spanish-only households."
+  },
+  {
+    "id": "vl_036",
+    "source_type": "vietnam_letter",
+    "year": 1970,
+    "context": "A Chicano veteran returned home, to himself, written in his car after a job interview",
+    "text": "The man behind the desk asked me what I did in the war. I said the polite thing. He nodded and said something about discipline. He did not hire me. I am sitting in my car writing this because I do not know if it was the war answer or the name on the application that did it. I do not know which one I would rather it be.",
+    "theme_tags": [
+      "chicano_veteran",
+      "job_interview",
+      "polite_answer",
+      "name_or_war",
+      "two_kinds_of_no"
+    ],
+    "inspired_by": "Pattern documented across Chicano Vietnam veteran oral histories (Pomona College project, KQED 'Invisible Force' reporting): returning Latino veterans faced compounded discrimination — both as Vietnam vets and as ethnic minorities — and often could not determine which form of rejection they were experiencing in any given moment."
+  },
+  {
+    "id": "vl_037",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A Japanese American soldier whose father was interned at Manzanar, to his father",
+    "text": "I am writing you from a country your country put us in a camp to keep us from. I do not say it that way out loud because you would tell me to stop and you would mean it. You spent the war proving you were American enough. I am spending this war proving the same thing again. I am writing this because I want one of us to have written it down, even if neither of us ever reads it again.",
+    "theme_tags": [
+      "japanese_american",
+      "manzanar_father",
+      "proving_americanness",
+      "generational_repetition",
+      "for_the_record"
+    ],
+    "inspired_by": "Documented in Japanese American Vietnam veteran narratives (Densho Encyclopedia, Go For Broke National Education Center): sons of Japanese Americans who had been interned during WWII often served in Vietnam in part to prove loyalty, and faced their fathers' fraught silence about both wars."
+  },
+  {
+    "id": "vl_038",
+    "source_type": "vietnam_letter",
+    "year": 1985,
+    "context": "A veteran in his late thirties, to his ten-year-old son who asked about the war",
+    "text": "You asked me at dinner what I did in the war. I said something about driving trucks. I do drive trucks now. I drove trucks then too. The other things I did I am not going to tell you, not at ten, not at twenty, not ever if I can help it. I am writing this letter because I want to remember that I made the choice not to tell you, and that the choice was a kind of love, even if you decide later that it was not.",
+    "theme_tags": [
+      "father_to_son",
+      "decade_later",
+      "withholding_as_love",
+      "trucks",
+      "future_judgement"
+    ],
+    "inspired_by": "Long-term silence patterns documented in Vietnam veteran family narratives (e.g. interviews with veterans' adult children in Maine VVOH project, Rochester Voices). The recurring framing of withholding war stories from children as an act of protection rather than evasion."
+  },
+  {
+    "id": "vl_039",
+    "source_type": "vietnam_letter",
+    "year": 1995,
+    "context": "A veteran to his adult daughter on the morning she leaves for college",
+    "text": "I have been writing you a letter since you were three years old. I add a sentence and then I cross it out. I keep the page in a drawer. The page is mostly crossed-out sentences now. I am giving you the page because the time is up. The crossed-out parts are what I could not say. The few words still standing are what I could.",
+    "theme_tags": [
+      "veteran_to_daughter",
+      "lifetime_letter",
+      "crossed_out",
+      "what_remains",
+      "leaving_for_college"
+    ],
+    "inspired_by": "Pattern of veterans accumulating drafts of letters to children over years, documented in oral history collections at the Vietnam Center & Sam Johnson Vietnam Archive (Texas Tech). The letter-as-palimpsest is a recurring motif in late-life veteran memoir."
+  },
+  {
+    "id": "vl_040",
+    "source_type": "vietnam_letter",
+    "year": 1973,
+    "context": "Two veterans at a VFW post, neither one writing, both one talking",
+    "text": "We sat at the bar for an hour and we talked about the Steelers. He was at Khe Sanh. I was twenty miles south. We both knew it and neither of us said it. The Steelers were not the conversation. The conversation was happening in the spaces between the Steelers. I am writing this down because I do not know who else would understand that the spaces were the thing.",
+    "theme_tags": [
+      "veteran_to_veteran",
+      "VFW_bar",
+      "talking_around",
+      "spaces_between",
+      "shared_silence"
+    ],
+    "inspired_by": "The veteran-to-veteran sublimated communication is widely documented in PTSD literature and VVA testimony. The pattern of using sports talk or weather as a vehicle for unspoken battlefield acknowledgement appears across decades of veteran memoir and the work of Jonathan Shay ('Achilles in Vietnam')."
+  },
+  {
+    "id": "vl_041",
+    "source_type": "vietnam_letter",
+    "year": 1980,
+    "context": "A veteran to a man he served with, who has just died, written and put in a coat pocket",
+    "text": "I read about you in the paper this morning. You died in a hospital. I did not know you were sick. I did not know your wife's name. We had been everything to each other for fourteen months and nothing to each other for ten years and I let it become nothing. I am writing this and putting it in my coat pocket because I do not know your widow's address and I do not know if I would send it if I did.",
+    "theme_tags": [
+      "veteran_friendship_lost",
+      "obituary",
+      "didnt_know_wife",
+      "coat_pocket",
+      "ten_years_silent"
+    ],
+    "inspired_by": "The pattern of unit bonds dissolving into postwar silence, with reunion only through obituaries, is documented across veteran memoirs and the Jonathan Shay literature. Specifically inspired by patterns in Tim O'Brien's writing and VVA newsletters tracking unit reunions and deaths."
+  },
+  {
+    "id": "cc_019",
+    "source_type": "counterculture",
+    "year": 1990,
+    "context": "An adult child of an antiwar protester, written in a journal she shares with no one",
+    "text": "My mother burned her draft card in nineteen sixty-nine. There is a photograph of her doing it on the wall of our living room. She has told the story of the photograph at every dinner party since I was old enough to be at one. She has never told me what she felt the morning after. I am writing this because the photograph has a back and I would like to know what is written on the back.",
+    "theme_tags": [
+      "child_of_protester",
+      "famous_photograph",
+      "story_repeated",
+      "morning_after",
+      "back_of_photograph"
+    ],
+    "inspired_by": "Pattern in second-generation oral histories of antiwar activists (e.g. Berkeley Oral History Center, Movement family oral histories): adult children of prominent activists frequently reported that the public story of an iconic moment had crowded out access to their parent's private experience of it."
+  },
+  {
+    "id": "cc_020",
+    "source_type": "counterculture",
+    "year": 1985,
+    "context": "An adult child of a Vietnam veteran, after a thanksgiving dinner where her father did not speak",
+    "text": "My father did not eat the corn. He never eats the corn. I asked him once when I was nine why he never eats the corn. He said he did not like it. I am thirty-four and I have figured out that something happened in a field with corn that I am not going to be told. I am writing this because the not-being-told has shaped me as much as the being-told would have.",
+    "theme_tags": [
+      "child_of_veteran",
+      "thanksgiving",
+      "corn",
+      "shaped_by_silence",
+      "not_being_told"
+    ],
+    "inspired_by": "The intergenerational transmission of trauma through specific avoidances is documented in PTSD literature and second-generation veteran-child narratives (Maine VVOH project, Vietnam Veterans of America family programs). The pattern of small, specific aversions whose origins are never explained is a recurring motif."
+  },
+  {
+    "id": "cc_021",
+    "source_type": "counterculture",
+    "year": 1972,
+    "context": "A mother whose son refused the draft and went to Canada, in her kitchen",
+    "text": "My son is in Toronto. I tell people he is studying. I am not lying. He is studying something. I do not say what. The neighbors know and they do not know at the same time and we have all agreed not to find out which one is true. I am writing this in my kitchen because the kitchen is the only room where I do not have to perform the not-knowing.",
+    "theme_tags": [
+      "draft_dodger_mother",
+      "Canada",
+      "studying",
+      "neighborhood_pact",
+      "kitchen"
+    ],
+    "inspired_by": "Approximately 30,000-50,000 American men fled to Canada to avoid the draft. Their families' experience of public ambiguity is documented in Jessica Squires's 'Building Sanctuary' and oral histories from the Toronto-based draft resister community. The 'agreed not to know' pattern is well documented in working-class neighborhoods."
+  },
+  {
+    "id": "vl_042",
+    "source_type": "vietnam_letter",
+    "year": 1975,
+    "context": "A veteran whose drinking is destroying his marriage, written and not given",
+    "text": "I am drinking because the drinking is quieter than the not-drinking. I cannot tell you that because you would tell me to stop and I would have to choose between you and the quiet. I am choosing wrong. I know I am choosing wrong. I am writing this so that one of us has, at some point, said it out loud, even if I am the only one who hears it.",
+    "theme_tags": [
+      "veteran_drinking",
+      "marriage_failing",
+      "quieter_than_quiet",
+      "wrong_choice",
+      "private_confession"
+    ],
+    "inspired_by": "Vietnam veteran alcoholism rates and the pattern of self-medication for untreated PTSD are extensively documented (NIMH studies, Jonathan Shay, Department of Veterans Affairs). The internal awareness of wrong choice, suppressed in marriage, appears across veteran memoirs."
+  },
+  {
+    "id": "cc_022",
+    "source_type": "counterculture",
+    "year": 1973,
+    "context": "A young man in a small town who did not get drafted and did not protest, journal entry",
+    "text": "I did not go to Vietnam. I did not go to a march. I worked at the gas station. The other guys came back and the other guys did not come back. I had a steady job through all of it and a girl who became a wife and a kid who is now four. I am writing this because I do not know what to call what I did with those years. Nothing happened to me. The nothing is the thing I cannot tell anyone about.",
+    "theme_tags": [
+      "non_participant",
+      "small_town",
+      "gas_station",
+      "nothing_happened",
+      "guilt_of_quiet_life"
+    ],
+    "inspired_by": "The experience of Vietnam-era men who neither served nor actively protested — the silent majority of small-town America — is rarely documented but appears in works like Christian G. Appy's 'Working-Class War' and oral histories from rural Midwest VHP collections. Their guilt at having had a 'quiet decade' is largely unwritten history."
+  },
+  {
+    "id": "vl_043",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A Native American soldier on a base in Vietnam, written on the back of a letter from his grandmother",
+    "text": "Grandmother sends me sage in her letters. The chaplain says we cannot burn things in the barracks. I keep the sage in my locker and I take it out at night and I hold it and I do not burn it. She would understand. She would say the holding is also a kind of burning. I do not write any of this back to her because she already knows. The letter would just be repeating what she has already given me.",
+    "theme_tags": [
+      "native_american_soldier",
+      "sage",
+      "grandmother",
+      "holding_not_burning",
+      "already_known"
+    ],
+    "inspired_by": "Native American servicemen served in Vietnam at higher per capita rates than any other ethnic group. Documented in the Veterans History Project Native American collections and the National Native American Veterans Memorial archives. The theme of carrying grandmother-sent ceremonial objects through restrictions on practice appears in multiple oral histories."
+  },
+  {
+    "id": "vl_044",
+    "source_type": "vietnam_letter",
+    "year": 1971,
+    "context": "A Native American veteran returned to his reservation, to no one in particular",
+    "text": "The men at the trading post asked me how it was over there. I said hot. They nodded. We did not say what we both knew, which is that this is the second war we have come back from to a country that did not start being ours. The grandfathers fought in France. I fought in Vietnam. The trading post is the same trading post. I am writing this because the same-ness is what I cannot say at the trading post.",
+    "theme_tags": [
+      "native_american_veteran",
+      "reservation",
+      "trading_post",
+      "grandfathers_war",
+      "country_not_ours"
+    ],
+    "inspired_by": "The doubled return of Native American veterans — to reservations that remained sites of dispossession — is documented in the literature of Native veteran experience (e.g. Tom Holm's 'Strong Hearts, Wounded Souls'). The pattern of generational war service against a backdrop of unchanged colonial relations is well established."
+  },
+  {
+    "id": "cc_023",
+    "source_type": "counterculture",
+    "year": 1971,
+    "context": "A pacifist Quaker mother whose son enlisted, written in a Meeting House journal",
+    "text": "My son has enlisted. He did not ask me. He told me on a Tuesday after dinner. I have spent fifty years of First Days sitting in silence learning how to receive what is given. I do not know how to receive this. The silence in the Meeting House this morning was a different silence than usual. I am the one who made it different. I cannot tell anyone that.",
+    "theme_tags": [
+      "quaker_mother",
+      "son_enlisted",
+      "first_day",
+      "meeting_house",
+      "broken_silence"
+    ],
+    "inspired_by": "Quaker family conflict over Vietnam enlistment is documented in the Friends Journal archives and in works like Stephen Angell's writings on the era. The phenomenon of pacifist parents whose children enlisted, and the strain on Meeting fellowship, appears throughout Quaker historical accounts of the period."
+  },
+  {
+    "id": "vl_045",
+    "source_type": "vietnam_letter",
+    "year": 1972,
+    "context": "A father who hit his son for the first time, written in shame, kept folded in a wallet",
+    "text": "I came back from over there changed and I knew I was changed and I told myself it would not get into the house. It got into the house last Thursday. He was eight. He was not even doing anything. I have been writing this for four days. I do not know who to give it to. He does not need a piece of paper from me. He needs a different father from me and I do not know how to be one.",
+    "theme_tags": [
+      "veteran_father",
+      "first_time_hit",
+      "child_did_nothing",
+      "needs_different_father",
+      "wallet_letter"
+    ],
+    "inspired_by": "The intergenerational transmission of trauma through veteran-perpetrated family violence is extensively documented (NCBI studies on Vietnam veteran families, the work of Aphrodite Matsakis, VA family programs). The pattern of shame-after-first-strike, kept private, appears in clinical literature on veteran-family dynamics."
+  },
+  {
+    "id": "vl_046",
+    "source_type": "vietnam_letter",
+    "year": 1969,
+    "context": "A soldier writing to his platoon's translator, a young Vietnamese man, after the man stopped showing up",
+    "text": "I do not know what side you were on. I do not know if you were on a side. I knew that you taught me the word for rain and the word for tired and the word for tomorrow. You did not show up on Tuesday. Nobody asked where you went and I did not ask. I am writing this in English because you would have understood it. You taught me three words. You knew thousands.",
+    "theme_tags": [
+      "interpreter",
+      "vietnamese_friend",
+      "didnt_ask",
+      "asymmetric_knowing",
+      "stopped_coming"
+    ],
+    "inspired_by": "The relationships between American soldiers and Vietnamese interpreters/scouts ('Kit Carson Scouts') are documented in oral histories at the Vietnam Center Archive (Texas Tech). The pattern of unexplained disappearances and the soldiers' decision not to inquire is a recurring motif of complicity-by-silence."
+  },
+  {
+    "id": "cc_024",
+    "source_type": "counterculture",
+    "year": 1970,
+    "context": "A Vietnamese refugee woman in California, to a daughter she has not yet told",
+    "text": "I do not tell you about the boat. You ask me sometimes about the boat and I say it was crowded. The boat was crowded. That is true. The other things are also true and I do not say them. I am writing this in a language you cannot yet read so that one day, if you learn it, you will find out what I did not say in the language we both speak.",
+    "theme_tags": [
+      "vietnamese_refugee",
+      "boat",
+      "two_languages",
+      "future_daughter",
+      "deferred_telling"
+    ],
+    "inspired_by": "The experience of Vietnamese refugee mothers withholding war and refugee passage details from American-born daughters is documented across Vietnamese American literary and oral history archives (Viet Thanh Nguyen, Lan Cao, Ocean Vuong, the SEAA Oral History Project). The pattern of language as both barrier and time capsule is widely written about."
+  },
+  {
+    "id": "vl_047",
+    "source_type": "vietnam_letter",
+    "year": 1973,
+    "context": "A POW released after years of captivity, in a hotel in the Philippines, to his wife waiting in California",
+    "text": "I have been rehearsing what to say to you for six years. I had it perfect. I have it perfect now. I am sitting in this hotel and I am realizing that the perfect words are for the woman I left and not for the woman waiting at the airport. I do not know who is waiting at the airport. I do not know who is sitting in this hotel. I am writing this because I will throw it away before I get on the plane.",
+    "theme_tags": [
+      "pow",
+      "release",
+      "rehearsed_words",
+      "different_people_now",
+      "throw_away"
+    ],
+    "inspired_by": "POW return narratives from Operation Homecoming (1973) are documented in the Library of Congress American Folklife Center and in numerous memoirs by released POWs. The pattern of carefully composed reunion language failing on actual return, due to changes in both parties, is widely attested."
+  },
+  {
+    "id": "dy_009",
+    "source_type": "dylan_era_reflection",
+    "year": 1973,
+    "context": "On the universality of the unsent letter, in the spirit of Dylan's late-1973",
+    "text": "Everyone is carrying a letter they did not send. The soldier and the mother and the protester and the silent man at the gas station. The letter is not the same letter. The carrying is the same carrying. The door you knock on is the door of the person you did not send the letter to. Sometimes they answer. Sometimes you keep knocking, and the knocking is the letter, finally arriving in the only language it could.",
+    "theme_tags": [
+      "universality",
+      "unsent_letter",
+      "everyone_carries",
+      "knocking_as_letter",
+      "arrival_language"
+    ],
+    "inspired_by": "Composed in the reflective register of the project's Dylan-era voice. Synthesizes the project's central thesis: that the unsent letter is not a Vietnam phenomenon but a universal human one, and that the act of knocking is itself a form of address — the form available when no other was."
+  }
+]

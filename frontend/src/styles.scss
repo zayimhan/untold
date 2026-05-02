@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0a0a0a;
+  --text: #e8e0d0;
+  --text-dim: #8a7f70;
+  --accent: #c9a870;
+  --font-serif: 'Lora', Georgia, serif;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  height: 100%;
+  line-height: 1.7;
+}
+
+::selection {
+  background: #2a2418;
+}

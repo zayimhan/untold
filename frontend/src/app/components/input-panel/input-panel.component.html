@@ -1,0 +1,21 @@
+<div class="input-panel">
+  <label class="prompt-label" for="user-text">
+    Write something you could not say.
+  </label>
+  <textarea
+    id="user-text"
+    [(ngModel)]="userText"
+    (keydown)="onKeydown($event)"
+    placeholder="Say it here."
+    rows="6"
+    autofocus
+  ></textarea>
+  <button
+    class="submit-btn"
+    (click)="submit()"
+    [disabled]="!userText.trim()"
+  >
+    Let it go.
+  </button>
+  <span class="hint">or Ctrl+Enter</span>
+</div>

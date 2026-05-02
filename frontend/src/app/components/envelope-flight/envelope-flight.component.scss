@@ -1,0 +1,40 @@
+.envelope-flight {
+  animation: envelope-fly-through-door 4.2s cubic-bezier(0.5, 0, 0.7, 1) forwards;
+  filter: drop-shadow(0 8px 28px rgba(0, 0, 0, 0.7));
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  z-index: 50;
+}
+
+.env-svg {
+  display: block;
+  width: 100%;
+}
+
+@keyframes envelope-fly-through-door {
+  /* Phase 1: 0–30% — drift toward the door */
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translate(-50%, -55%) scale(0.85) rotate(-2deg);
+    opacity: 0.95;
+  }
+
+  /* Phase 2: 30–65% — pass through the doorway, shrink */
+  65% {
+    transform: translate(-50%, -60%) scale(0.5) rotate(-5deg);
+    opacity: 0.7;
+  }
+
+  /* Phase 3: 65–100% — exit toward top-right (Chrome download bar) */
+  100% {
+    transform: translate(45vw, -40vh) scale(0.18) rotate(-12deg);
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,38 @@
+<div class="scene" [class]="'phase-' + phase">
+  <div class="inner-glow"></div>
+
+  <div class="stage-wrapper">
+    <div class="door-frame">
+
+      <!-- Wall recession (jambs) -->
+      <div class="jamb jamb--left"></div>
+      <div class="jamb jamb--right"></div>
+      <div class="jamb jamb--top"></div>
+
+      <!-- Hinge pivot wrapper (knock animation target) -->
+      <div class="door-pivot-wrap">
+        <div class="door-pivot" [class.open]="phase === 'opening' || phase === 'open'">
+          <div class="door">
+
+            <div class="door-front">
+              <div class="panel upper-panel"></div>
+              <div class="panel lower-panel"></div>
+              <div class="knob"></div>
+              <div class="hinge hinge--top"></div>
+              <div class="hinge hinge--bottom"></div>
+            </div>
+
+            <div class="door-edge"></div>
+            <div class="door-back"></div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="doorway-light"></div>
+
+    </div>
+
+    <div class="crack-light"></div>
+  </div>
+</div>

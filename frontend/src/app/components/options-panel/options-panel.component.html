@@ -1,0 +1,10 @@
+<div class="options" [class.is-transitioned]="transitioned()">
+  <div class="cta-stack">
+    <span class="cta cta-say">say it.</span>
+    <span class="cta cta-seal">seal it.</span>
+  </div>
+  <div class="actions">
+    <button class="primary" (click)="seal.emit()">Seal it</button>
+    <button class="secondary" (click)="leave.emit()">Leave it</button>
+  </div>
+</div>

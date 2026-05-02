@@ -1,0 +1,11 @@
+<div class="theater">
+  <p class="theater-label">searching the unsent</p>
+  <div class="theater-scroll">
+    @for (frag of visibleFragments(); track frag.id) {
+      <span class="theater-line" [class.active]="frag.id === activeId()">
+        {{ frag.context }}, {{ frag.year }}
+      </span>
+    }
+  </div>
+  <div class="theater-pulse"></div>
+</div>

@@ -1,0 +1,343 @@
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* ─── Outer scene ────────────────────────────────────────── */
+.scene {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 900px;
+  perspective-origin: 50% 42%;
+  width: 100%;
+}
+
+/* ─── Background glow ────────────────────────────────────── */
+.inner-glow {
+  background: radial-gradient(
+    ellipse at 50% 45%,
+    rgba(210, 165, 85, 0.22) 0%,
+    rgba(180, 130, 55, 0.10) 38%,
+    transparent 65%
+  );
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 2.5s ease;
+}
+
+.phase-opening .inner-glow,
+.phase-open .inner-glow {
+  opacity: 1;
+}
+
+/* ─── Wrapper ────────────────────────────────────────────── */
+.stage-wrapper {
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 14s ease-out;
+}
+
+.phase-open .stage-wrapper {
+  transform: scale(1.14);
+}
+
+/* ─── Door frame ─────────────────────────────────────────── */
+.door-frame {
+  border: 4px solid #3d3028;
+  border-bottom: none;
+  box-shadow:
+    inset 0 0 22px rgba(0, 0, 0, 0.55),
+    -4px 0 12px rgba(0, 0, 0, 0.4),
+    4px 0 12px rgba(0, 0, 0, 0.4);
+  height: 400px;
+  opacity: 0;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: opacity 2s ease;
+  width: 220px;
+}
+
+.phase-closed   .door-frame,
+.phase-knocking .door-frame,
+.phase-opening  .door-frame,
+.phase-open     .door-frame {
+  opacity: 1;
+}
+
+/* ─── Frame jambs (wall thickness / recession) ───────────── */
+.jamb {
+  pointer-events: none;
+  position: absolute;
+}
+
+.jamb--left {
+  background: linear-gradient(to right, #070503 0%, #1a1208 65%, #120e08 100%);
+  height: calc(100% + 4px);
+  left: -4px;
+  top: -4px;
+  transform: rotateY(90deg);
+  transform-origin: left center;
+  width: 30px;
+}
+
+.jamb--right {
+  background: linear-gradient(to left, #070503 0%, #1a1208 65%, #120e08 100%);
+  height: calc(100% + 4px);
+  right: -4px;
+  top: -4px;
+  transform: rotateY(-90deg);
+  transform-origin: right center;
+  width: 30px;
+}
+
+.jamb--top {
+  background: linear-gradient(to bottom, #070503 0%, #1a1208 65%, #120e08 100%);
+  height: 30px;
+  left: -4px;
+  top: -4px;
+  transform: rotateX(-90deg);
+  transform-origin: top center;
+  width: calc(100% + 8px);
+}
+
+/* ─── Hinge pivot WRAPPER — knock animation lives here ───── */
+.door-pivot-wrap {
+  inset: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+/* Knock animation on WRAPPER so open transition on pivot is unaffected */
+.phase-knocking .door-pivot-wrap {
+  animation: knock-shudder 3.2s ease-in-out infinite;
+}
+
+@keyframes knock-shudder {
+  /* Knocks align with audio: 0s, 0.9s, 1.8s out of 3.2s cycle */
+  0%   { transform: rotateY(0deg); }
+  5%   { transform: rotateY(-5deg); }
+  11%  { transform: rotateY(0deg); }
+  28%  { transform: rotateY(0deg); }
+  33%  { transform: rotateY(-5deg); }
+  39%  { transform: rotateY(0deg); }
+  56%  { transform: rotateY(0deg); }
+  62%  { transform: rotateY(-5deg); }
+  68%  { transform: rotateY(0deg); }
+  100% { transform: rotateY(0deg); }
+}
+
+/* ─── Hinge pivot — open transition only ─────────────────── */
+.door-pivot {
+  inset: 0;
+  position: absolute;
+  transform: rotateY(0deg);
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transition: transform 3.2s cubic-bezier(0.22, 0.05, 0.18, 1);
+
+  &.open {
+    transform: rotateY(-82deg);
+  }
+}
+
+/* ─── Door container ─────────────────────────────────────── */
+.door {
+  inset: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+/* ─── Front face ─────────────────────────────────────────── */
+.door-front {
+  backface-visibility: hidden;
+  background:
+    repeating-linear-gradient(
+      91deg,
+      transparent 0,
+      transparent 10px,
+      rgba(0, 0, 0, 0.032) 10px,
+      rgba(0, 0, 0, 0.032) 11px,
+      transparent 11px,
+      transparent 21px,
+      rgba(255, 255, 255, 0.012) 21px,
+      rgba(255, 255, 255, 0.012) 22px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 60px,
+      rgba(0, 0, 0, 0.025) 60px,
+      rgba(0, 0, 0, 0.025) 62px
+    ),
+    linear-gradient(168deg, #2e2118 0%, #231a10 28%, #2a1f15 54%, #1c1409 78%, #241a0f 100%);
+  box-shadow:
+    inset -10px 0 18px rgba(0, 0, 0, 0.45),
+    inset 0 -10px 18px rgba(0, 0, 0, 0.35),
+    inset 3px 0 6px rgba(255, 200, 120, 0.03);
+  inset: 0;
+  position: absolute;
+}
+
+/* ─── Raised wood panels ─────────────────────────────────── */
+.panel {
+  background: linear-gradient(158deg, #291e14 0%, #1d1509 58%, #2a1f14 100%);
+  border: 1px solid rgba(255, 255, 255, 0.035);
+  box-shadow:
+    inset 0 0 14px rgba(0, 0, 0, 0.6),
+    0 1px 0 rgba(255, 255, 255, 0.055),
+    0 -1px 0 rgba(0, 0, 0, 0.45);
+  left: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+.upper-panel { height: 130px; top: 24px; }
+.lower-panel { bottom: 55px; top: 182px; }
+
+/* ─── Door knob ──────────────────────────────────────────── */
+.knob {
+  background: radial-gradient(circle at 32% 28%, #c8a870 0%, #9a8060 28%, #5a3f22 68%, #2e1e0c 100%);
+  border-radius: 50%;
+  box-shadow:
+    0 0 8px rgba(0, 0, 0, 0.8),
+    inset 0 1px 2px rgba(255, 220, 160, 0.35);
+  height: 16px;
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+}
+
+/* ─── Hinges ─────────────────────────────────────────────── */
+.hinge {
+  background: linear-gradient(
+    to right,
+    #5a4e36 0%,
+    #a88e60 32%,
+    #d4bc8c 50%,
+    #9a8462 70%,
+    #544832 100%
+  );
+  border-radius: 2px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.7);
+  height: 30px;
+  left: 0;
+  position: absolute;
+  width: 11px;
+}
+
+.hinge--top    { top: 55px; }
+.hinge--bottom { bottom: 75px; }
+
+/* ─── Right edge (door thickness) ───────────────────────── */
+.door-edge {
+  background: linear-gradient(to right, #1e1510 0%, #120d08 55%, #090604 100%);
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateZ(-9px) translateX(9px) rotateY(90deg);
+  transform-origin: left center;
+  width: 18px;
+
+  &::before {
+    background: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 5px,
+      rgba(0, 0, 0, 0.22) 5px,
+      rgba(0, 0, 0, 0.22) 6px
+    );
+    content: '';
+    inset: 0;
+    position: absolute;
+  }
+
+  &::after {
+    background: linear-gradient(to right, rgba(255, 190, 100, 0.07), transparent 55%);
+    content: '';
+    inset: 0;
+    position: absolute;
+  }
+}
+
+/* ─── Back face ──────────────────────────────────────────── */
+.door-back {
+  backface-visibility: hidden;
+  background:
+    repeating-linear-gradient(
+      89deg,
+      transparent 0,
+      transparent 18px,
+      rgba(0, 0, 0, 0.09) 18px,
+      rgba(0, 0, 0, 0.09) 19px
+    ),
+    linear-gradient(170deg, #140f08 0%, #1a1308 50%, #120d07 100%);
+  inset: 0;
+  position: absolute;
+  transform: translateZ(-18px) rotateY(180deg);
+}
+
+/* ─── Doorway interior light ─────────────────────────────── */
+.doorway-light {
+  background: radial-gradient(
+    ellipse at 50% 60%,
+    rgba(255, 210, 140, 0.55) 0%,
+    rgba(220, 160, 80, 0.28) 30%,
+    rgba(180, 110, 40, 0.10) 55%,
+    transparent 75%
+  );
+  filter: blur(18px);
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: translateZ(-120px);
+  transition: opacity 3.5s ease;
+}
+
+.phase-opening .doorway-light,
+.phase-open .doorway-light {
+  opacity: 1;
+}
+
+/* ─── Warm light crack ───────────────────────────────────── */
+.crack-light {
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(210, 165, 70, 0.7) 25%,
+    rgba(230, 185, 90, 1) 50%,
+    rgba(210, 165, 70, 0.7) 75%,
+    transparent 100%
+  );
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  transition: opacity 0.8s ease;
+}
+
+.phase-knocking .crack-light {
+  animation: crack-breathe 2.4s ease-in-out infinite;
+}
+
+@keyframes crack-breathe {
+  0%, 100% { opacity: 0.35; }
+  50%       { opacity: 1; }
+}
+
+.phase-opening .crack-light,
+.phase-open    .crack-light {
+  opacity: 0;
+}

@@ -1,0 +1,41 @@
+# ─── Claude Code ──────────────────────────────────────────────
+.claude/
+
+# ─── Secrets ──────────────────────────────────────────────────
+.env
+*.env
+
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+backend/venv/
+backend/.venv/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Generated data (rebuild with build_embeddings.py) ────────
+backend/data/archive_embeddings.npz
+backend/data/archive_annotated.json
+
+# ─── Node / Angular ───────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.sass-cache/
+
+# ─── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

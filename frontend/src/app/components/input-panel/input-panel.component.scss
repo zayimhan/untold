@@ -1,0 +1,60 @@
+.input-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.prompt-label {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  color: var(--text);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  outline: none;
+  padding: 0.6rem 0;
+  resize: none;
+  width: 100%;
+
+  &::placeholder {
+    color: #444;
+  }
+}
+
+.submit-btn {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid #444;
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1.4rem;
+  transition: border-color 0.2s, color 0.2s;
+
+  &:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+}
+
+.hint {
+  color: #444;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}

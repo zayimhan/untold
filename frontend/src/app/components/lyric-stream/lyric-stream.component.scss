@@ -1,0 +1,30 @@
+.lyric-stream {
+  max-width: 560px;
+  width: 100%;
+}
+
+.lyric-line {
+  animation: line-appear 0.9s ease forwards;
+  color: var(--text);
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.9;
+  opacity: 0;
+
+  &.empty {
+    animation: none;
+    min-height: 1.5em;
+    opacity: 1;
+  }
+}
+
+@keyframes line-appear {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
