@@ -20,8 +20,7 @@ backend/build/
 .ruff_cache/
 
 # ─── Generated data (rebuild with build_embeddings.py) ────────
-backend/data/archive_embeddings.npz
-backend/data/archive_annotated.json
+# archive_embeddings.npz and archive_annotated.json are committed for deployment
 
 # ─── Node / Angular ───────────────────────────────────────────
 frontend/node_modules/
